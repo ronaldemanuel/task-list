@@ -10,7 +10,11 @@ const GlobalStyle = createGlobalStyle`
 
 const theme = {
   colors: {
-    primary: '#0070f3',
+    main: '#44B0B7',
+    card: '#fff',
+    goodGreen: '#00B876',
+    badRed: '#B80000',
+    niceBlue: '#0A3588',
   },
 }
 
