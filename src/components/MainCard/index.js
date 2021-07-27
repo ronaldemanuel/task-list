@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import TaskItem from "../TaskItem";
 
 export default function MainCard(props) {
     if(props.check) {
@@ -15,9 +16,11 @@ export default function MainCard(props) {
                 <input type="button" value="Não listadas" id="notListed" />
             </MainCard.buttonContainer>
             <MainCard.taskContainer>
-                <button>Teste</button>
-                <button>Teste</button>
-                <button>Teste</button>
+                <TaskItem id="1" />
+                <TaskItem id="2" />
+                <TaskItem id="3" />
+                <TaskItem id="4" />
+                <TaskItem id="5" />
             </MainCard.taskContainer>
         </MainCard.container>
     )
@@ -25,7 +28,7 @@ export default function MainCard(props) {
 
 MainCard.container = styled.div`
     background: ${({ theme }) => theme.colors.card};
-    max-width: 480px;
+    width: 480px;
     width: 500px;
     border-radius: 15px;
     margin: 55px auto;
@@ -42,9 +45,10 @@ MainCard.buttonContainer = styled.div`
         background-color: #fff;
         border: 1px solid ${({ theme }) => theme.colors.main};
         border-radius: 10px;
-        height: 30px;
+        height: 31px;
         width: 120px;
         font-size: 17px;
+        font-family: 'Roboto', sans-serif;
         transition: .2s ease-in;
         
         &:hover {

@@ -13,6 +13,7 @@ const GlobalStyle = createGlobalStyle`
       #207B95 78.89%, 
       #16034F 98.87%);
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
   }
 `
 
