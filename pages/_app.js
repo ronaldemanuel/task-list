@@ -5,6 +5,13 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(238.98deg, 
+      #29B6D6 7.53%, 
+      rgba(39, 204, 165, 0.8) 33.7%, 
+      #207B95 78.89%, 
+      #16034F 98.87%);;
   }
 `
 
