@@ -11,7 +11,8 @@ const GlobalStyle = createGlobalStyle`
       #29B6D6 7.53%, 
       rgba(39, 204, 165, 0.8) 33.7%, 
       #207B95 78.89%, 
-      #16034F 98.87%);;
+      #16034F 98.87%);
+    font-size: 18px;
   }
 `
 
